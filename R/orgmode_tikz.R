@@ -37,7 +37,7 @@ tex.figure <- function(inpath, fig.float="t", fig.caption="My figure", fig.label
 #' @param fig.label Latex figure label for referencing
 #' @return The latex figure block as a string
 #' @export
-str.figure <- function(figure.string, fig.float="t", fig.caption="My figure", fig.label="fig:my_figure") {
+string.figure <- function(figure.string, fig.float="t", fig.caption="My figure", fig.label="fig:my_figure") {
     figure.string <- paste0("\\begin{figure}[", fig.float, "]\n",
                             figure.string,
                             "  \\caption{", fig.caption, "}\n",

@@ -7,6 +7,7 @@
 tex.figure(
   inpath,
   fig.float = "t",
+  fig.center = TRUE,
   fig.caption = "My figure",
   fig.label = "fig:my_figure",
   is.subfigure = FALSE,
@@ -17,6 +18,8 @@ tex.figure(
 \item{inpath}{Filepath to the location of the tex file}
 
 \item{fig.float}{Latex figure float modifiers as a string (e.g. "htbp", "!h")}
+
+\item{fig.center}{Add centering argument to the latex figure block}
 
 \item{fig.caption}{Latex figure caption}
 

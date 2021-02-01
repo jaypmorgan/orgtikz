@@ -7,6 +7,7 @@
 string.figure(
   figure.string,
   fig.float = "t",
+  fig.center = TRUE,
   fig.caption = "My figure",
   fig.label = "fig:my_figure"
 )
@@ -15,6 +16,8 @@ string.figure(
 \item{figure.string}{The string to use inside the figure block}
 
 \item{fig.float}{Latex figure float modifiers as a string (e.g. "htbp", "!h")}
+
+\item{fig.center}{Add centering argument to the latex figure block}
 
 \item{fig.caption}{Latex figure caption}
 

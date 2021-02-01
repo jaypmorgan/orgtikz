@@ -17,7 +17,7 @@ devtools::install_github("jaypmorgan/orgtikz")
 library(orgtikz)
 
 # create the orgmode figure string
-tikz.figure("/path/to/tex/file", fig.caption="My cool figure", fig.label="fig:my_cool_figure")
+tex.figure("/path/to/tex/file", fig.caption="My cool figure", fig.label="fig:my_cool_figure")
 ```
 
 This function will return the latex figure as a string, to which you can export as a latex string in org mode.

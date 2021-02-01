@@ -14,7 +14,7 @@
 #' @export
 tex.figure <- function(inpath, fig.float="t", fig.caption="My figure", fig.label="fig:my_figure", is.subfigure=FALSE, subfigure.scale=1.0) {
     if (is.subfigure == TRUE) {
-        figure.string <- paste0("\\begin{subfigure}[", fig.float, "]{", fig.scale, "\textwidth}\n")
+        figure.string <- paste0("\\begin{subfigure}[", fig.float, "]{", subfigure.scale, "\textwidth}\n")
     } else {
         figure.string <- paste0("\\begin{figure}[", fig.float, "]\n")
     }

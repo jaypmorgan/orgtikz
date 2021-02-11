@@ -13,7 +13,7 @@
 #' @param subfigure.scale Set width of subfigure if is.subfigure is TRUE
 #' @return A latex figure as a string
 #' @export
-tex.figure <- function(inpath, fig.float="t", fig.center=TRUE, fig.caption="My figure", fig.label="fig:my_figure", is.subfigure=FALSE, subfigure.scale=1.0) {
+tex.figure <- function(inpath, fig.float="t", fig.center=TRUE, fig.caption="My figure", fig.label="fig:my_figure", is.subfigure=FALSE, subfigure.scale=0.45) {
     if (is.subfigure == TRUE) {
         figure.string <- paste0("\\begin{subfigure}[", fig.float, "]{", subfigure.scale, "\\textwidth}\n")
     } else {
